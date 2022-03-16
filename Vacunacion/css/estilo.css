@@ -1,0 +1,471 @@
+:root {
+  --fondo: #f3f9fa;
+  --tituloazul: #3e5fcc;
+  --subtitulos: #33266b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  font-family: "Fredoka One", cursive;
+  font-weight: lighter;
+}
+section {
+  height: 800px;
+  width: 800px;
+}
+body {
+  background-color: var(--fondo);
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+}
+.hoax {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #888ea1;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  font-family: inherit;
+  vertical-align: middle;
+  background-color: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: center;
+  touch-action: manipulation;
+  white-space: nowrap;
+  line-height: 1.428571429;
+  user-select: none;
+  color: #ffffff;
+  background-color: #3e5fcc;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 3px;
+  padding: 10px 25px;
+  border: 2px solid #3e5fcc;
+  box-shadow: 0 0 0 0 #3e5fcc;
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+.contenedor {
+  width: 90%;
+  margin: auto;
+}
+header {
+  padding: 50px 60px;
+}
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+header .logotipo {
+  font-family: "Fredoka One", cursive;
+  font-weight: normal;
+  color: var(--tituloazul);
+  font-size: 30px;
+  text-decoration: none;
+}
+header nav a {
+  color: rgb(107, 99, 99);
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 23px;
+}
+.justificado {
+  text-align: justify;
+  padding: 0 60px;
+  font-family: "Fredoka One", cursive;
+  font-weight: lighter;
+  color: #33266b;
+}
+
+h2 {
+  color: var(--subtitulos);
+  font-family: "Fredoka One", cursive;
+  text-decoration: none;
+  font-weight: lighter;
+  margin-right: 50px;
+  font-size: 65px;
+}
+
+p.justificado.contenedor {
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+  color: rgb(107, 99, 99);
+  font-weight: 100;
+}
+
+.fondojeringa {
+  background-image: url("../assets/img/jeringa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 120px;
+  left: 760px;
+}
+
+.posicionestrella {
+  position: absolute;
+  left: 375px;
+  top: 586px;
+  color: yellow;
+}
+.posicionsecure {
+  position: absolute;
+  left: 149px;
+  top: 586px;
+  color: yellow;
+}
+
+.posicionreloj {
+  position: absolute;
+  left: 149px;
+  top: 777px;
+  color: blue;
+}
+.calendario {
+  justify-content: left;
+  align-items: Center;
+  padding: 0px 180px;
+  display: flex;
+}
+.centrar {
+  transform: translate(-50px -50px);
+}
+
+.posicionmapa {
+  position: absolute;
+  left: 199px;
+  top: 847px;
+  color: blue;
+}
+.posiciondate {
+  position: absolute;
+  left: 359px;
+  top: 846px;
+  color: blue;
+}
+
+.posicionpencil {
+  position: absolute;
+  left: 480px;
+  top: 846px;
+  color: blue;
+}
+
+.boton {
+  font-family: Montserrat, sans-serif;
+  -webkit-box-direction: normal;
+  word-wrap: break-word;
+
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  color: #fff !important;
+  background-color: #2842b9;
+
+  cursor: pointer;
+}
+
+.logos {
+  width: 90%;
+  height: 200px;
+  padding: 0 60px;
+
+  opacity: 0.2;
+}
+.logoaztra {
+  width: 300px;
+  height: 200px;
+  background-image: url("../assets/img/aztra.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 300px;
+}
+
+.logosinovac {
+  width: 300px;
+  height: 200px;
+  background-image: url("../assets/img/sinovac.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  position: absolute;
+  top: 1019px;
+  left: 500px;
+}
+
+.logopfizer {
+  width: 300px;
+  height: 200px;
+  background-image: url("../assets/img/pfizer.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  position: absolute;
+  top: 970px;
+  left: 800px;
+}
+
+.logomoderna {
+  width: 300px;
+  height: 200px;
+  background-image: url("../assets/img/moderna.jpg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  position: absolute;
+  top: 960px;
+  left: 1100px;
+}
+
+.parrafowhy {
+  height: 200px;
+  padding: 0 60px;
+}
+
+.c1 {
+  width: 250px;
+  height: 265px;
+  padding: 0 60px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1470px;
+  left: 190px;
+}
+
+.c2 {
+  width: 250px;
+  height: 265px;
+  padding: 0 60px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1470px;
+  left: 480px;
+}
+
+.c3 {
+  width: 250px;
+  height: 265px;
+  padding: 0 60px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1470px;
+  left: 770px;
+}
+.c4 {
+  width: 250px;
+  height: 265px;
+  padding: 0 60px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1470px;
+  left: 1060px;
+}
+
+.logo1 {
+  font-size: 40px;
+  position: absolute;
+  top: 1480px;
+  left: 200px;
+  color: #3a19c9;
+}
+
+.logo2 {
+  font-size: 40px;
+  position: absolute;
+  top: 1480px;
+  left: 490px;
+  color: #3a19c9;
+}
+.logo3 {
+  font-size: 40px;
+  position: absolute;
+  top: 1480px;
+  left: 778px;
+  color: #3a19c9;
+}
+
+.logo4 {
+  font-size: 40px;
+  position: absolute;
+  top: 1480px;
+  left: 1080px;
+  color: #3a19c9;
+}
+
+.textotitulo {
+  position: absolute;
+  top: 0px;
+  left: 8px;
+  color: #33266b;
+}
+.textop {
+  position: absolute;
+  top: 89px;
+  left: 8px;
+  font-weight: 100;
+}
+
+.div1 {
+  width: 660px;
+  height: 230px;
+  position: absolute;
+  top: 1960px;
+  left: 660px;
+}
+
+.div2 {
+  background-color: #496cdd;
+  background-image: url("../assets/img/paciente.png");
+  width: 620px;
+  height: 720px;
+  position: absolute;
+  top: 2042px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.div3 {
+  width: 600px;
+  height: 620px;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+
+.div4 {
+  width: 660px;
+  height: 230px;
+  position: absolute;
+  top: 2920px;
+  left: 160px;
+}
+
+.div5 {
+  background-color: #496cdd;
+  background-image: url("../assets/img/celular.png");
+  width: 620px;
+  height: 720px;
+  position: absolute;
+  top: 3100px;
+  left: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.div6 {
+  width: 600px;
+  height: 620px;
+  position: absolute;
+  top: 3170px;
+  left: 110px;
+}
+.c5 {
+  width: 250px;
+  height: 240px;
+  padding: 0 60px;
+
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+.c6 {
+  width: 250px;
+  height: 240px;
+  padding: 0 60px;
+
+  position: absolute;
+  top: 0px;
+  left: 320px;
+}
+.c7 {
+  width: 250px;
+  height: 240px;
+  padding: 0 60px;
+
+  position: absolute;
+  top: 300px;
+  left: 20px;
+}
+
+.c8 {
+  width: 250px;
+  height: 240px;
+  padding: 0 60px;
+
+  position: absolute;
+  top: 300px;
+  left: 320px;
+}
+.call {
+  padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+  border: 0.125rem solid #5f4dee;
+  border-radius: 2rem;
+  background-color: #5f4dee;
+  color: #fff;
+  font: 700 0.875rem/0 "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s;
+  position: absolute;
+  top: 160px;
+  left: 60px;
+  cursor: pointer;
+}
+
+.ultimosection {
+  width: 100%;
+  height: 450px;
+
+  background-color: rgb(211, 220, 233);
+}
+
+.c9 {
+  width: 250px;
+  height: 240px;
+
+  position: absolute;
+  top: 4080px;
+  left: 90px;
+}
+
+.c10 {
+  width: 250px;
+  height: 240px;
+
+  position: absolute;
+  top: 0px;
+  left: 560px;
+}
+.c11 {
+  width: 250px;
+  height: 240px;
+
+  position: absolute;
+  top: 0px;
+  left: 860px;
+}
+.c12 {
+  width: 250px;
+  height: 240px;
+
+  position: absolute;
+  top: 0px;
+  left: 1155px;
+}
+
+.ultimodiv {
+  width: 100%;
+  height: 90px;
+}
